@@ -1,0 +1,32 @@
+v1.3c: patch
+Release date: 02/07/2023
+Level: Patch
+- Fix bug: Exception when adding a new student/module while the row was selected in the initial report.
+
+v1.3b: patch
+Release date: 01/07/2023
+Level: Patch
+- Data changed in one view can be updated on other views (100%)
+
+v1.3a: improve performance
+Release date: 28/06/2023
+Level: Minor update
+- Data changed in one view can be updated on other views (still miss a case :< )
+- Improve performance
+
+v1.3: asynchronous
+Release date: 27/06/2023
+Level: Major update
+- Implement some asynchronous methods for repository layer.
+- Fix bug: Exception when updating Module.
+
+v1.2: three-tier architecture pattern
+Release date: 27/06/2023
+Level: Major update
+- Change the architecture type from the Repository pattern to the Three-tier architecture pattern.
+- Remove the batch map, still maintain the batch processing ability.
+
+v1.1: connection pooling
+Release date: 26/06/2023
+Level: Major update
+- Implement connection pooling for DAOs.
